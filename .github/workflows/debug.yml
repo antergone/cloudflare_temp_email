@@ -12,3 +12,5 @@ jobs:
 
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
+        env:
+          BACKEND_TOML: ${{ secrets.BACKEND_TOML }}
