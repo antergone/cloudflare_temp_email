@@ -49,6 +49,7 @@ type Bindings = {
     DOMAIN_LABELS: string | string[] | undefined
     PASSWORDS: string | string[] | undefined
     ADMIN_PASSWORDS: string | string[] | undefined
+    ADMIN_API_IP_WHITELIST: string | string[] | undefined
     DISABLE_ADMIN_PASSWORD_CHECK: string | boolean | undefined
     JWT_SECRET: string
     BLACK_LIST: string | undefined
@@ -117,6 +118,7 @@ type Bindings = {
 
     // gzip compression for raw_mails
     ENABLE_MAIL_GZIP: string | boolean | undefined
+    ENABLE_MAIL_READ_STATUS: string | boolean | undefined
     CLEANUP_BATCH_SIZE: string | number | undefined
 
     // E2E testing
