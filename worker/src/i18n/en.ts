@@ -22,6 +22,10 @@ const messages: LocaleMessages = {
     InvalidAddressCredentialMsg: "Invalid address credential",
     UserDeleteEmailDisabledMsg: "User delete address/email is disabled, please contact the administrator",
 
+    RedeemCodeUnavailableMsg: "The redemption code is invalid, used, or expired",
+    RedeemCodeInvalidMsg: "Invalid redemption code configuration",
+    RedeemRoleConflictMsg: "The user already has a different role",
+
     UserNotFoundMsg: "User not found",
     UserAlreadyExistsMsg: "User already exists, please login",
     FailedToRegisterMsg: "Failed to register",
@@ -84,6 +88,7 @@ const messages: LocaleMessages = {
     EnableSendMailForDomainMsg: "Please enable SEND_MAIL for this domain first",
     InvalidCleanupConfigMsg: "Invalid cleanType or cleanDays",
     InvalidCleanTypeMsg: "Invalid cleanType",
+    CleanupFailedMsg: "Cleanup failed. Check your cleanup settings; inactive-address cleanup is unavailable when address activity updates are disabled.",
     EnableKVForMailVerifyMsg: "Please enable KV first if you want to enable mail verify",
     VerifyMailDomainInvalidMsg: "VerifyMailSender domain must be in",
     InvalidMaxAddressCountMsg: "Invalid maxAddressCount",

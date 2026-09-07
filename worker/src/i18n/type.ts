@@ -20,6 +20,10 @@ export type LocaleMessages = {
     InvalidAddressCredentialMsg: string
     UserDeleteEmailDisabledMsg: string
 
+    RedeemCodeUnavailableMsg: string
+    RedeemCodeInvalidMsg: string
+    RedeemRoleConflictMsg: string
+
     UserNotFoundMsg: string
     UserAlreadyExistsMsg: string
     FailedToRegisterMsg: string
@@ -82,6 +86,7 @@ export type LocaleMessages = {
     EnableSendMailForDomainMsg: string
     InvalidCleanupConfigMsg: string
     InvalidCleanTypeMsg: string
+    CleanupFailedMsg: string
     EnableKVForMailVerifyMsg: string
     VerifyMailDomainInvalidMsg: string
     InvalidMaxAddressCountMsg: string

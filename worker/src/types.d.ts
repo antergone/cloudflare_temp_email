@@ -42,6 +42,7 @@ type Bindings = {
     RANDOM_SUBDOMAIN_DOMAINS: string | string[] | undefined
     RANDOM_SUBDOMAIN_LENGTH: string | number | undefined
     DISABLE_CUSTOM_ADDRESS_NAME: string | boolean | undefined
+    DISABLE_ADDRESS_UPDATED_AT: string | boolean | undefined
     CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST: string | boolean | undefined
     ADMIN_USER_ROLE: string | undefined
     USER_DEFAULT_ROLE: string | UserRole | undefined
@@ -60,6 +61,8 @@ type Bindings = {
     ENABLE_USER_DELETE_EMAIL: string | boolean | undefined
     ENABLE_ADDRESS_PASSWORD: string | boolean | undefined
     ENABLE_AGENT_EMAIL_INFO: string | boolean | undefined
+    ENABLE_REDEEM_CODE: string | boolean | undefined
+    REDEEM_CODE_URL: string | undefined
     SMTP_IMAP_PROXY_CONFIG: string | SmtpImapProxyConfig | undefined
     ENABLE_INDEX_ABOUT: string | boolean | undefined
     DEFAULT_SEND_BALANCE: number | string | undefined
